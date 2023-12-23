@@ -4,7 +4,7 @@
 
 const id = Symbol('123');
 const anotherId = Symbol('123');
-
+console.table([id, anotherId])
 console.log(id === anotherId) //false because it return unique value
 
 // primitive type => String, Boolean, Number, null, undefined, Symbol, BIGINT
@@ -15,3 +15,9 @@ console.log(id === anotherId) //false because it return unique value
 //reference type or non-primitive type
 
 // => arrays, objects and functions
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive) and Heap(Non-Primitive) Memory
+//In stack memory the copy is created and the changes occurs in copy but in heap original value changes
