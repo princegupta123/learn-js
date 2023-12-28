@@ -9,4 +9,4 @@ const interval = setInterval(()=>{
     console.log("Hi, Prince")
 }, 1000);
 
-clearInterval(interval)
+clearInterval(interval);
